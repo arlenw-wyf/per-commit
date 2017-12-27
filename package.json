@@ -1,0 +1,25 @@
+{
+  "name": "per-commit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    // "test": "echo \"Error: no test specified\" && exit 1"
+    "eslint": "eslint src/**/*.js",
+    "precommit": "npm run eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arlenw-wyf/per-commit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arlenw-wyf/per-commit/issues"
+  },
+  "homepage": "https://github.com/arlenw-wyf/per-commit#readme",
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "husky": "^0.14.3"
+  }
+}
