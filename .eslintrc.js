@@ -19,6 +19,16 @@ module.exports = {
         "semi": [
             "error",
             "always"
+        ],
+        "no-console": [
+            "error",
+            {
+                allow: [
+                    "warn",
+                    "log"
+                ]
+            }
         ]
+
     }
 };
