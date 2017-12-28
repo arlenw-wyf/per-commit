@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "eslint": "eslint src/**/*.js",
-    "precommit": "npm run eslint"
+    "precommits": "npm run eslint"
   },
   "repository": {
     "type": "git",
